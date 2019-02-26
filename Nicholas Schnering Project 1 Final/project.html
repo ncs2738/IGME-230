@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/layout.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Love+Ya+Like+A+Sister" rel="stylesheet">
+    <title>DarkCrept</title>
+</head>
+
+<body>
+
+    <header>
+        <div class = "link-bar">
+            <div class = "wrapper">
+                <div class = "title">
+                    <hr class = "dots">
+                        <h1 id = "index">Prototype</h1>
+                    <hr class = "dots">
+                </div>
+            </div>
+                    
+            <nav>
+                <ul class = "links">
+                <li><a href="https://people.rit.edu/ncs2738/230/">230-Page</a></li>
+                <li><a href="https://people.rit.edu/ncs2738/230/project1/index.html">Home</a></li>
+                <li><a href="https://people.rit.edu/ncs2738/230/project1/proposal.html">Proposal</a></li>
+                <li><a href="https://people.rit.edu/ncs2738/230/project1/documentation.html">Documentation</a></li>
+                <li><a class ="current" href="https://people.rit.edu/ncs2738/230/project1/project.html" onclick="return false;">Project</a></li>
+                <li><a href="https://github.com/ncs2738/IGME-230">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<hr>
+
+<div class = "forum-container">
+
+    <div class = "rec-thread-bar">
+        <div class = "rec-topic">
+            <h1> Recent Topics </h1>
+        </div>
+
+        <div class = "post-num">
+            <h1> Posts </h1>
+        </div>
+
+        <div class = "views">
+            <h1> Views </h1>
+        </div>
+
+        <div class = "last-post">
+            <h1> Last Poster </h1>
+        </div>
+    </div>
+
+    <div class = "rec-thread-1">
+        <div class = "rec-topic">
+            <p class = "post-title"><a href="#">John Post</a></p>
+            <p><a href="#">Spooky</a></p>
+        </div>
+
+        <div class = "post-num">
+            <h1> 2 </h1>
+        </div>
+
+        <div class = "views">
+            <h1> 15 </h1>
+        </div>
+
+        <div class = "last-post">
+            <h1> John Post </h1>
+        </div>
+    </div>
+
+    <div class = "rec-thread-2">
+        <div class = "rec-topic">
+            <h1> I am second. </h1>
+        </div>
+
+        <div class = "post-num">
+            <h1> 3 </h1>
+        </div>
+
+        <div class = "views">
+            <h1> 3 </h1>
+        </div>
+
+        <div class = "last-post">
+            <h1> Jack Second </h1>
+        </div>
+    </div>
+
+     <div class = "rec-thread-1">
+        <div class = "rec-topic">
+            <h1> Third topic </h1>
+        </div>
+
+        <div class = "post-num">
+            <h1> 5 </h1>
+        </div>
+
+        <div class = "views">
+            <h1> 12 </h1>
+        </div>
+
+        <div class = "last-post">
+            <h1> Third Guy </h1>
+        </div>
+    </div>
+
+    <br><br><br>
+    <div class = "gen-thread-bar">
+        <div class = "gen-topic">
+            <h1> General Threads </h1>
+        </div>
+
+        <div class = "total-post">
+            <h1> Posts </h1>
+        </div>
+    </div>
+    
+    </div>
+
+    <hr>
+
+    <script>
+    window.onclick = visited;
+    var start = false;
+
+
+    function visited() 
+    {
+        //Site was visited
+        if (document.cookie.indexOf("visited") >= 0) 
+        {
+            document.getElementsByTagName("BODY")[0].style.backgroundColor = "white";
+        } 
+        //Site was unvisted
+        else 
+        {
+            document.cookie = "visited";
+        }
+    }
+    </script>
+
+</body>
+
+</html>
+

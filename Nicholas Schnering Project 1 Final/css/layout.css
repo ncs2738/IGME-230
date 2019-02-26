@@ -1,0 +1,250 @@
+body
+{
+    background-color: #282832;
+    margin:0;
+    padding:0;
+}
+
+ul.links, ul.links ul {
+    padding-top:1%;
+    padding-left:3%;
+    padding-right:3%;
+    list-style: none;
+    display:flex;
+    justify-content: space-evenly;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size:120%;
+}
+
+.links a {
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    text-align:center;
+    background:rgb(41, 41, 41);
+    color:white;
+    border: 15px black double;
+    border-radius: 10px;
+}
+
+.links li {
+    width:12%;
+}
+
+.links a:link {
+    background:rgb(41, 41, 41);
+    color:white;
+    border: 15px black double;
+  }
+
+.links a:visited
+{
+    background:rgb(41, 41, 41);
+    color:white;
+    border: 15px black double;
+}
+  
+.links a:hover {
+    background:#520A00;
+    color:white;
+    border: 15px #2E0a0a double;
+    text-decoration: underline; 
+  }
+  
+.links a:active {
+    background:lightgray;
+    color:black;
+    border: 15px gray double;
+    text-decoration: underline; 
+  } 
+
+nav .links .current {
+    background:lightgray;
+    color:black;
+    border: 15px gray double;
+    text-decoration: none; 
+ }
+
+ .link-bar
+ {
+     background-image: linear-gradient(black, black, #0b0b0e,  rgba(255,0,0,0));
+     padding-bottom:2%;
+     padding-top:2%;
+     margin-left: calc(50% - 50vw);
+     width: 100vw;
+ }
+ 
+ .wrapper
+ {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     width:33%;
+ 
+     background-color:#2e0a0a;
+     border: 15px #2e0a0a solid;
+     border-radius: 15px;
+ }
+ 
+ .title
+ {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     width:100%;
+ 
+     background-color:#2e0a0a;
+     color:white;
+     border: 15px black double;
+     border-radius: 10px;
+ 
+     font-family: 'Love Ya Like A Sister', cursive;
+     text-shadow: 6px 10px 5px black;
+     font-size:140%;
+ }
+
+.dots
+{
+    border: 10px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;;
+}
+
+.forum-container
+{
+    width:94vw;
+    padding-left:3vw;
+}
+
+.forum-container div
+{
+    border:.25px #202121 solid;
+}
+
+.rec-thread-bar, .gen-thread-bar
+{
+    /*height:5vh;*/
+    display:flex;
+    align-items: center;
+    background-color: rgb(146, 146, 146);
+    /*text-decoration: underline;*/
+}
+
+.rec-thread-1, .gen-thread-1
+{
+    display:flex;
+    background-color: rgb(233, 240, 240);
+}
+
+.rec-thread-2, .gen-thread-2
+{
+    display:flex;
+    background-color: lightgray;
+}
+
+.rec-topic
+{
+    flex:2.5;
+    padding-left: 2em;
+}
+
+.post-num
+{
+    display: flex;
+    flex:.5; 
+    justify-content: center;
+}
+
+.views
+{
+    display: flex;
+    flex:.5; 
+    justify-content: center;
+}
+
+.last-post
+{
+    flex:1;
+    padding-left: 2em;
+}
+
+.gen-topic
+{
+    flex:3;
+    padding-left: 2em;
+}
+
+.total-post
+{
+    display: flex;
+    flex:.75; 
+    justify-content: center;
+}
+
+p
+{
+    padding: 0;
+    margin: 0;
+}
+
+.post-title
+{
+    padding-top:20px;
+}
+
+@media only screen and (max-device-width: 480px)
+{
+    .container div
+    {
+        display:flex;
+    }
+
+    ul.links, ul.links ul 
+    {
+        margin: 0;
+        display: block;
+        margin-bottom: 3px;
+        padding-top:3%;
+        font-size:160%;
+    }
+
+    .links a, a 
+    {
+        display: block;
+    }
+    .links li 
+    {
+        width:100%;
+    }
+
+    .wrapper
+    {
+    display: flex;
+    width:90%;
+    }
+
+    .container 
+    {
+        display: inline;
+    }
+
+    .intro
+    {
+        width:90%;
+        font-size: 22pt;
+    }
+
+    .contents
+    {
+    font-size: 22pt;
+    width:90%;
+    }
+
+    .category
+    {
+        font-size: 26pt;
+    }
+}
