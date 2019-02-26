@@ -13,7 +13,7 @@ The site is in disarray, with most of it completely corrupted. The user must nav
 
 The player must search throughout the defunct site to find both puzzle and solution. Can you solve the mystery of DarkCrept?
 
-!["web"][https://github.com/ncs2738/IGME-230/blob/master/Nicholas%20Schnering%20Project%201%20Final/media/proto-forum.png]
+![web][https://github.com/ncs2738/IGME-230/blob/master/Nicholas%20Schnering%20Project%201%20Final/media/proto-forum.png]
 
 
 ---------------------------------------------------------------------------------
@@ -39,7 +39,7 @@ The player will be searching the site for both puzzles and solutions in order to
 
 Aesthetics: The sites' aesthetics will be similar to a basic web forum, and if possible, more stylized to older/simpler web forums. The site will try to mimic a web forum as much as possible in order to give the illusion of using a real forum. The site possibly will have background music playing.
 
-!["forum"][https://github.com/ncs2738/IGME-230/blob/master/Nicholas%20Schnering%20Project%201%20Final/media/web-forum.png]
+![forum][https://github.com/ncs2738/IGME-230/blob/master/Nicholas%20Schnering%20Project%201%20Final/media/web-forum.png]
 
 Gameplay: DarkCrept's gameplay will be compromised of two things: Searching the forum and reading the posts, and solving the puzzles presented by the site. 
 The puzzles for the game will be created using HTML, CSS, and JavaScript. For an example of a puzzle, the site will see if the page had been visited prior. If it was, the page will "distort and corrupt", revealing a puzzle to be solved or a solution to a puzzle to decipher. The puzzle could give the user an html address to enter or the puzzle could get a solution to a password for a user on the site. There will be actual "levels" within the game. The levels will be compromised of a set of posts the user can currently access on the site that provide new information or a new puzzle to solve. Once the user solves the puzzle, they will be brought back to the main forum page, but now at a different timepoint, with the forum having new / variant
@@ -50,7 +50,7 @@ The players will be learning ways to solve complex puzzles thrown their way. For
 
 Etc. : If possible, DarkCrept could become an ARG game with enough development time and skill.
 
-!["seized"][https://github.com/ncs2738/IGME-230/blob/master/Nicholas%20Schnering%20Project%201%20Final/media/seized-website.jpg]
+![seized][https://github.com/ncs2738/IGME-230/blob/master/Nicholas%20Schnering%20Project%201%20Final/media/seized-website.jpg]
 
 Developer: DarkCrept is developed by Nicholas Schnering. I am a junior in the game design and development major here at RIT, although I'm more of a mix between freshman and sophomore because I transferred to RIT last semester. I'm interested in just creating fun games that I think are cool and I'd like. I really like the idea of exploring a half-dead and breaking website. I've played a lot of half-dead MMOs, so it's kind of an odd experience close to me. I'm a half-decent programmer who's worked in Java, C#, Unix SQL, and now HTML. I've worked with HTML before, but nothing impressive. It was out of a decade old book.
 
@@ -71,16 +71,27 @@ This is the video I used to get a grasp on the flexbox design I used to make the
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=JJSoEo8JSnc
 " target="_blank"><img src="http://img.youtube.com/vi/JJSoEo8JSnc/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 [Video Link](https://www.youtube.com/watch?v=JJSoEo8JSnc)
 
 Another resource I used was w3Schools. (Like how I learned to link that video above!)    
-[w3schools.com](https://www.w3schools.com/)
+
+[w3schools.com]
+(https://www.w3schools.com/)
 
 Stackoverflow is another great website for help!    
-[stackoverflow.com](https://stackoverflow.com/)
 
-I also used two websites for color palettes: "Adobe Color" and "Colour Lovers"   
-[Adobe Color](https://color.adobe.com/explore/?filter=most-popular&time=month)
-[colourloves.com](https://www.colourlovers.com/)
+[stackoverflow.com]
+(https://stackoverflow.com/)
+
+I also used two websites for color palettes: "Adobe Color" and "Colour Lovers" 
+  
+[Adobe Color]
+(https://color.adobe.com/explore/?filter=most-popular&time=month)
+
+[colourloves.com]
+(https://www.colourlovers.com/)
+
 And finally, Google Fonts   
-[fonts.google.com](https://fonts.google.com/)
+[fonts.google.com]
+(https://fonts.google.com/)
